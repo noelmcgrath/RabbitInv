@@ -1,36 +1,23 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
 
-# Folder config file
-Desktop.ini
+.vagrant/
+# bin and obj directories at any depth
+bin/
+obj/
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# Visual studio files
+*.sln.DotSettings.user
+*.csproj.user
+*.suo
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+# Resharper files
+*resharper*
+_resharper*/
 
-# =========================
-# Operating System Files
-# =========================
+# MS Test runner add-in results directories at any depth
+TestResults/
 
-# OSX
-# =========================
+# bin directories exclusions
+!lib/NUnit/bin/
 
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Icon must ends with two \r.
-Icon
-
-# Thumbnails
-._*
-
-# Files that might appear on external disk
-.Spotlight-V100
-.Trashes
+# JMeter log
+jmeter.log
